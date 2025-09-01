@@ -13,7 +13,7 @@ const Crew: React.FC = () => {
       exit={{ opacity: 0, y: 40 }}
       transition={{ duration: 0.8, ease: "easeInOut" }}
     >
-      <div className="w-full h-full flex flex-col items-center justify-center  text-white px-5 barlow-condensed leading-[100%] md:pt-32 md:items-start lg:px-28 lg:pl-40">
+      <div className="w-full h-full flex flex-col items-center justify-center  text-white px-5 barlow-condensed leading-[100%] pt-22 md:pt-32 md:items-start lg:px-28 lg:pl-40">
         {/* Crew */}
         <div className="flex items-center gap-5 tracking-[0.15em] text-base  md:text-xl lg:text-[1.75rem] uppercase lg:mb-16">
           <span className="font-bold text-white/25">02</span>
