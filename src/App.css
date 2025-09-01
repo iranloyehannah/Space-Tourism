@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+
+html, body, #root {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.barlow-condensed{
+  font-family: "Barlow Condensed", sans-serif;
+}
+.barlow{
+  font-family: "Barlow", sans-serif;
+}
+ .bellefair {
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+}
+.fade-bottom {
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .fade-bottom {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
