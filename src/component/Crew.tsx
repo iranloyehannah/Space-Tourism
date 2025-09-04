@@ -7,8 +7,9 @@ const Crew: React.FC = () => {
     (crew) => crew.name === selectedCrew
   );
   return (
-    <motion.section className="w-full min-h-screen bg-[url('./assets/crew/background-crew-mobile.jpg')] sm:bg-[url('./assets/crew/background-crew-tablet.jpg')] lg:bg-[url('./assets/crew/background-crew-desktop.png')] bg-cover bg-no-repeat bg-center"
-    initial={{ opacity: 0, y: -40 }}
+    <motion.section
+      className="w-full min-h-screen bg-[url('./assets/crew/background-crew-mobile.jpg')] sm:bg-[url('./assets/crew/background-crew-tablet.jpg')] lg:bg-[url('./assets/crew/background-crew-desktop.png')] bg-cover bg-no-repeat bg-center"
+      initial={{ opacity: 0, y: -40 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 40 }}
       transition={{ duration: 0.8, ease: "easeInOut" }}

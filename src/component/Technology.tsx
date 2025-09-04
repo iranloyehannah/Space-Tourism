@@ -37,9 +37,9 @@ const Technology: React.FC = () => {
             />
           </div>
 
-          {/* Content */}
+          
           <div className="flex flex-col items-center mx-19 space-y-12 lg:flex-row lg:mx-0 lg:mr-16 lg:space-y-0 lg:space-x-20">
-            {/* Navigation buttons */}
+            {/* Nav btn */}
             <div className="flex gap-3 pt-7 lg:flex-col lg:pt-0 lg:gap-8">
               {TechnologyData.map((tech, idx) => (
                 <div
@@ -56,7 +56,7 @@ const Technology: React.FC = () => {
               ))}
             </div>
 
-            {/* Text content with added spacing */}
+            {/* Text */}
             <div className="flex flex-col items-center gap-8 lg:items-start lg:gap-6 lg:max-w-md">
               <div className="bellefair uppercase leading-[100%] space-y-4 lg:space-y-6">
                 <p className="text-white/50 text-center text-lg md:text-2xl lg:text-left lg:text-[32px]">
